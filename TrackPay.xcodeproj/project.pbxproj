@@ -1,0 +1,728 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		920D05E3288E0AED007A6826 /* TrackPay WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 920D05E2288E0AED007A6826 /* TrackPay WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		920D05E8288E0AEE007A6826 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 920D05E7288E0AEE007A6826 /* Assets.xcassets */; };
+		920D05F3288E0AEE007A6826 /* TrackPayApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920D05F2288E0AEE007A6826 /* TrackPayApp.swift */; };
+		920D05F5288E0AEE007A6826 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920D05F4288E0AEE007A6826 /* ContentView.swift */; };
+		920D05F7288E0AEE007A6826 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920D05F6288E0AEE007A6826 /* NotificationController.swift */; };
+		920D05F9288E0AEE007A6826 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920D05F8288E0AEE007A6826 /* NotificationView.swift */; };
+		920D05FB288E0AEE007A6826 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920D05FA288E0AEE007A6826 /* ComplicationController.swift */; };
+		920D05FD288E0AEF007A6826 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 920D05FC288E0AEF007A6826 /* Assets.xcassets */; };
+		920D0600288E0AEF007A6826 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 920D05FF288E0AEF007A6826 /* Preview Assets.xcassets */; };
+		920D060C288E0AEF007A6826 /* TrackPayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920D060B288E0AEF007A6826 /* TrackPayTests.swift */; };
+		920D0616288E0AEF007A6826 /* TrackPayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920D0615288E0AEF007A6826 /* TrackPayUITests.swift */; };
+		920D0618288E0AEF007A6826 /* TrackPayUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920D0617288E0AEF007A6826 /* TrackPayUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		920D05E4288E0AED007A6826 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 920D05D8288E0AED007A6826 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 920D05E1288E0AED007A6826;
+			remoteInfo = "TrackPay WatchKit App";
+		};
+		920D0612288E0AEF007A6826 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 920D05D8288E0AED007A6826 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 920D05E1288E0AED007A6826;
+			remoteInfo = "TrackPay WatchKit App";
+		};
+		928B01B329EB8DF4006606AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 920D05D8288E0AED007A6826 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 920D05E1288E0AED007A6826;
+			remoteInfo = "TrackPay WatchKit App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		920D0622288E0AEF007A6826 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				920D05E3288E0AED007A6826 /* TrackPay WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		920D05DE288E0AED007A6826 /* TrackPay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrackPay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		920D05E2288E0AED007A6826 /* TrackPay WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TrackPay WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		920D05E7288E0AEE007A6826 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		920D05F2288E0AEE007A6826 /* TrackPayApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackPayApp.swift; sourceTree = "<group>"; };
+		920D05F4288E0AEE007A6826 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		920D05F6288E0AEE007A6826 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		920D05F8288E0AEE007A6826 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		920D05FA288E0AEE007A6826 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		920D05FC288E0AEF007A6826 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		920D05FF288E0AEF007A6826 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		920D0601288E0AEF007A6826 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		920D0602288E0AEF007A6826 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		920D0607288E0AEF007A6826 /* TrackPayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrackPayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		920D060B288E0AEF007A6826 /* TrackPayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackPayTests.swift; sourceTree = "<group>"; };
+		920D0611288E0AEF007A6826 /* TrackPayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrackPayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		920D0615288E0AEF007A6826 /* TrackPayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackPayUITests.swift; sourceTree = "<group>"; };
+		920D0617288E0AEF007A6826 /* TrackPayUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackPayUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		928B01B529EB8F05006606AF /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		920D05EA288E0AEE007A6826 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		920D0604288E0AEF007A6826 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		920D060E288E0AEF007A6826 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		920D05D7288E0AED007A6826 = {
+			isa = PBXGroup;
+			children = (
+				928B01B529EB8F05006606AF /* README.md */,
+				920D05E6288E0AED007A6826 /* TrackPay WatchKit App */,
+				920D05F1288E0AEE007A6826 /* TrackPay WatchKit Extension */,
+				920D060A288E0AEF007A6826 /* TrackPayTests */,
+				920D0614288E0AEF007A6826 /* TrackPayUITests */,
+				920D05DF288E0AED007A6826 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		920D05DF288E0AED007A6826 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				920D05DE288E0AED007A6826 /* TrackPay.app */,
+				920D05E2288E0AED007A6826 /* TrackPay WatchKit App.app */,
+				920D0607288E0AEF007A6826 /* TrackPayTests.xctest */,
+				920D0611288E0AEF007A6826 /* TrackPayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		920D05E6288E0AED007A6826 /* TrackPay WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				920D05E7288E0AEE007A6826 /* Assets.xcassets */,
+			);
+			path = "TrackPay WatchKit App";
+			sourceTree = "<group>";
+		};
+		920D05F1288E0AEE007A6826 /* TrackPay WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				920D05F2288E0AEE007A6826 /* TrackPayApp.swift */,
+				920D05F4288E0AEE007A6826 /* ContentView.swift */,
+				920D05F6288E0AEE007A6826 /* NotificationController.swift */,
+				920D05F8288E0AEE007A6826 /* NotificationView.swift */,
+				920D05FA288E0AEE007A6826 /* ComplicationController.swift */,
+				920D05FC288E0AEF007A6826 /* Assets.xcassets */,
+				920D0601288E0AEF007A6826 /* Info.plist */,
+				920D0602288E0AEF007A6826 /* PushNotificationPayload.apns */,
+				920D05FE288E0AEF007A6826 /* Preview Content */,
+			);
+			path = "TrackPay WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		920D05FE288E0AEF007A6826 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				920D05FF288E0AEF007A6826 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		920D060A288E0AEF007A6826 /* TrackPayTests */ = {
+			isa = PBXGroup;
+			children = (
+				920D060B288E0AEF007A6826 /* TrackPayTests.swift */,
+			);
+			path = TrackPayTests;
+			sourceTree = "<group>";
+		};
+		920D0614288E0AEF007A6826 /* TrackPayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				920D0615288E0AEF007A6826 /* TrackPayUITests.swift */,
+				920D0617288E0AEF007A6826 /* TrackPayUITestsLaunchTests.swift */,
+			);
+			path = TrackPayUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		920D05DD288E0AED007A6826 /* TrackPay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 920D0623288E0AEF007A6826 /* Build configuration list for PBXNativeTarget "TrackPay" */;
+			buildPhases = (
+				920D05DC288E0AED007A6826 /* Resources */,
+				920D0622288E0AEF007A6826 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				920D05E5288E0AED007A6826 /* PBXTargetDependency */,
+			);
+			name = TrackPay;
+			productName = TrackPay;
+			productReference = 920D05DE288E0AED007A6826 /* TrackPay.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		920D05E1288E0AED007A6826 /* TrackPay WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 920D061F288E0AEF007A6826 /* Build configuration list for PBXNativeTarget "TrackPay WatchKit App" */;
+			buildPhases = (
+				920D05E0288E0AED007A6826 /* Resources */,
+				920D05E9288E0AEE007A6826 /* Sources */,
+				920D05EA288E0AEE007A6826 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TrackPay WatchKit App";
+			productName = "TrackPay WatchKit App";
+			productReference = 920D05E2288E0AED007A6826 /* TrackPay WatchKit App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		920D0606288E0AEF007A6826 /* TrackPayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 920D0626288E0AEF007A6826 /* Build configuration list for PBXNativeTarget "TrackPayTests" */;
+			buildPhases = (
+				920D0603288E0AEF007A6826 /* Sources */,
+				920D0604288E0AEF007A6826 /* Frameworks */,
+				920D0605288E0AEF007A6826 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				928B01B429EB8DF4006606AF /* PBXTargetDependency */,
+			);
+			name = TrackPayTests;
+			productName = TrackPayTests;
+			productReference = 920D0607288E0AEF007A6826 /* TrackPayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		920D0610288E0AEF007A6826 /* TrackPayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 920D0629288E0AEF007A6826 /* Build configuration list for PBXNativeTarget "TrackPayUITests" */;
+			buildPhases = (
+				920D060D288E0AEF007A6826 /* Sources */,
+				920D060E288E0AEF007A6826 /* Frameworks */,
+				920D060F288E0AEF007A6826 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				920D0613288E0AEF007A6826 /* PBXTargetDependency */,
+			);
+			name = TrackPayUITests;
+			productName = TrackPayUITests;
+			productReference = 920D0611288E0AEF007A6826 /* TrackPayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		920D05D8288E0AED007A6826 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					920D05DD288E0AED007A6826 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					920D05E1288E0AED007A6826 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					920D0606288E0AEF007A6826 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 920D05E1288E0AED007A6826;
+					};
+					920D0610288E0AEF007A6826 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 920D05E1288E0AED007A6826;
+					};
+				};
+			};
+			buildConfigurationList = 920D05DB288E0AED007A6826 /* Build configuration list for PBXProject "TrackPay" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 920D05D7288E0AED007A6826;
+			productRefGroup = 920D05DF288E0AED007A6826 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				920D05DD288E0AED007A6826 /* TrackPay */,
+				920D05E1288E0AED007A6826 /* TrackPay WatchKit App */,
+				920D0606288E0AEF007A6826 /* TrackPayTests */,
+				920D0610288E0AEF007A6826 /* TrackPayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		920D05DC288E0AED007A6826 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		920D05E0288E0AED007A6826 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				920D0600288E0AEF007A6826 /* Preview Assets.xcassets in Resources */,
+				920D05FD288E0AEF007A6826 /* Assets.xcassets in Resources */,
+				920D05E8288E0AEE007A6826 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		920D0605288E0AEF007A6826 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		920D060F288E0AEF007A6826 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		920D05E9288E0AEE007A6826 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				920D05F7288E0AEE007A6826 /* NotificationController.swift in Sources */,
+				920D05F5288E0AEE007A6826 /* ContentView.swift in Sources */,
+				920D05FB288E0AEE007A6826 /* ComplicationController.swift in Sources */,
+				920D05F3288E0AEE007A6826 /* TrackPayApp.swift in Sources */,
+				920D05F9288E0AEE007A6826 /* NotificationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		920D0603288E0AEF007A6826 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				920D060C288E0AEF007A6826 /* TrackPayTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		920D060D288E0AEF007A6826 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				920D0618288E0AEF007A6826 /* TrackPayUITestsLaunchTests.swift in Sources */,
+				920D0616288E0AEF007A6826 /* TrackPayUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		920D05E5288E0AED007A6826 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 920D05E1288E0AED007A6826 /* TrackPay WatchKit App */;
+			targetProxy = 920D05E4288E0AED007A6826 /* PBXContainerItemProxy */;
+		};
+		920D0613288E0AEF007A6826 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 920D05E1288E0AED007A6826 /* TrackPay WatchKit App */;
+			targetProxy = 920D0612288E0AEF007A6826 /* PBXContainerItemProxy */;
+		};
+		928B01B429EB8DF4006606AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 920D05E1288E0AED007A6826 /* TrackPay WatchKit App */;
+			targetProxy = 928B01B329EB8DF4006606AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		920D0619288E0AEF007A6826 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		920D061A288E0AEF007A6826 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		920D0620288E0AEF007A6826 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NU68332GGS;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "TrackPay WatchKit App";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zachfauser.TrackPay.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		920D0621288E0AEF007A6826 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NU68332GGS;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "TrackPay WatchKit App";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zachfauser.TrackPay.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		920D0624288E0AEF007A6826 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NU68332GGS;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zachfauser.TrackPay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator watchos watchsimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,4";
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		920D0625288E0AEF007A6826 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NU68332GGS;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zachfauser.TrackPay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator watchos watchsimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,4";
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
+		920D0627288E0AEF007A6826 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CL93W35JX6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zachfauser.TrackPayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrackPay WatchKit App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TrackPay WatchKit App";
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		920D0628288E0AEF007A6826 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CL93W35JX6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zachfauser.TrackPayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrackPay WatchKit App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TrackPay WatchKit App";
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		920D062A288E0AEF007A6826 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CL93W35JX6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zachfauser.TrackPayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "TrackPay WatchKit App";
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		920D062B288E0AEF007A6826 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CL93W35JX6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zachfauser.TrackPayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "TrackPay WatchKit App";
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		920D05DB288E0AED007A6826 /* Build configuration list for PBXProject "TrackPay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				920D0619288E0AEF007A6826 /* Debug */,
+				920D061A288E0AEF007A6826 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		920D061F288E0AEF007A6826 /* Build configuration list for PBXNativeTarget "TrackPay WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				920D0620288E0AEF007A6826 /* Debug */,
+				920D0621288E0AEF007A6826 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		920D0623288E0AEF007A6826 /* Build configuration list for PBXNativeTarget "TrackPay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				920D0624288E0AEF007A6826 /* Debug */,
+				920D0625288E0AEF007A6826 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		920D0626288E0AEF007A6826 /* Build configuration list for PBXNativeTarget "TrackPayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				920D0627288E0AEF007A6826 /* Debug */,
+				920D0628288E0AEF007A6826 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		920D0629288E0AEF007A6826 /* Build configuration list for PBXNativeTarget "TrackPayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				920D062A288E0AEF007A6826 /* Debug */,
+				920D062B288E0AEF007A6826 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 920D05D8288E0AED007A6826 /* Project object */;
+}
